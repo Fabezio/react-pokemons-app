@@ -1,0 +1,60 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.card-deck {
+    width: 1000px;
+    text-align: center;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.card {
+    text-align: left;
+    border: 1px solid grey;
+    padding: 0 8px;
+}
+
+.card--title {
+    /* font-family: monospace; */
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.card--img-frame {
+    text-align: center;
+}
+
+.card--array {
+    padding-left: 8px;
+}
+
+.card--list {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    min-height: 3rem;
+}
+
+.card--list-index {
+    list-style: "- "inside;
+
+    text-align: left;
+    padding-left: 8px;
+}
+
+.card--date {
+    /* position: absolute;
+    bottom: 20px; */
+
+    color: darkslategray;
+    font-weight: 300;
+    /* font-style: oblique; */
+}
